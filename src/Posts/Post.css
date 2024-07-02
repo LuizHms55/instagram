@@ -31,7 +31,23 @@
 }
 
 .Post__footer{
-    
+
+}
+
+.Post__footerIcon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Post__Icon{
+    padding: 7px;
+    font-size: 30px;
+}
+
+.Post__footerIcon:hover{
+    cursor: pointer;
 }
 
 .PerfilPost{
